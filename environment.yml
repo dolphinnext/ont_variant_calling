@@ -10,7 +10,7 @@ dependencies:
   - fastqc
   - minimap2
   - freebayes
-  - samtools=1.9
+  - samtools
   - medaka
   - coreutils
   - bcftools
