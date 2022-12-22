@@ -1,0 +1,26 @@
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f environment.yml
+name: base
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10.6
+  - fastqc
+  - minimap2
+  - freebayes
+  - samtools=1.9
+  - medaka
+  - coreutils
+  - bcftools
+  - snpsift
+  - vcflib
+  - fastp
+  - qualimap
+  - nanoplot
+  - mummer
+  - bedtools
+  - deeptools
+  - pygenometracks
+
