@@ -24,4 +24,4 @@ dependencies:
   - bedtools
   - deeptools
   - pygenometracks
-
+  - htslib
