@@ -25,3 +25,4 @@ dependencies:
   - deeptools
   - pygenometracks
   - htslib
+  - multiqc
