@@ -32,5 +32,6 @@ RUN . /opt/conda/etc/profile.d/conda.sh && \
     conda install -c conda-forge mamba && \
     mamba env update --name base -f /environment.yml && \
     mamba clean -a
+COPY bin/* /usr/bin
 ENV PATH /opt/conda/bin:$PATH
 ENV PATH /usr/local/bin:$PATH
